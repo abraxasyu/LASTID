@@ -16,9 +16,11 @@ import time
 def getlaststashid():
     reader=codecs.getreader('utf-8')
     #data=json.load(reader(urllib.request.urlopen('http://www.pathofexile.com/api/public-stash-tabs')))
-    next_change_id=nextid.objects.order_by('-nextid_time')[0].nextid_id
+    if nextid.objects.exists():
+        next_change_id=nextid.objects.order_by('-nextid_time')[0].nextid_id
+    else:
+        next_change_id=13318528-14389882-13254945-15630594-14586653
     previd=next_change_id
-    #13172689-14235686-13105704-15470830-14426942
     ttime=time.time()
     while(True):
         if (time.time()>ttime+1):
