@@ -19,17 +19,17 @@ def getlaststashid():
     if nextid.objects.exists():
         next_change_id=nextid.objects.order_by('-nextid_time')[0].nextid_id
     else:
-        next_change_id=13318528-14389882-13254945-15630594-14586653
+        next_change_id='13318528-14389882-13254945-15630594-14586653'
     previd=next_change_id
     ttime=time.time()
     while(True):
         if (time.time()>ttime+1):
             ttime=time.time()
             try:
-                data=json.load(reader(urllib.request.urlopen('http://www.pathofexile.com/api/public-stash-tabs?id='+str(next_change_id))))
+                data=json.load(reader(urllib.request.urlopen('http://www.pathofexile.com/api/public-stash-tabs?id='+next_change_id)))
                 next_change_id=data['next_change_id']
                 if next_change_id != previd:
-                    print(str(next_change_id)+" - "+datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
+                    print(next_change_id+" - "+datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
                     tid=nextid(
                         nextid_id = next_change_id
                     )
