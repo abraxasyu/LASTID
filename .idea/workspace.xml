@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ef579ea-d3e3-4f15-be41-6d2b33028e63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LASTID/settings.py" afterPath="$PROJECT_DIR$/LASTID/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LASTIDAPP/management/commands/Updater.py" afterPath="$PROJECT_DIR$/LASTIDAPP/management/commands/Updater.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/POCtesting.py" afterPath="$PROJECT_DIR$/POCtesting.py" />
-    </list>
+    <list default="true" id="8ef579ea-d3e3-4f15-be41-6d2b33028e63" name="Default" comment="" />
     <ignored path="LASTID.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -493,7 +485,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986793" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
