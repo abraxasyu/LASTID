@@ -2,7 +2,7 @@ Item List (time is in EST without DST):
 {% if idlist %}
     <ul>
     {% for nextid in idlist %}
-        <li>{{ nextid.nextid_id }} - {{ nextid.nextid_time }}</li>
+        <li>{{ nextid.nextid_id }} - {{ nextid.nextid_time|date:'Y-m-d H:i:s' }}</li>
     {% endfor %}
     </ul>
 {% else %}
