@@ -26,10 +26,10 @@ def getlaststashid():
         if (time.time()>ttime+1):
             ttime=time.time()
             try:
-                data=json.load(reader(urllib.request.urlopen('http://www.pathofexile.com/api/public-stash-tabs?id='+next_change_id)))
+                data=json.load(reader(urllib.request.urlopen('http://www.pathofexile.com/api/public-stash-tabs?id='+str(next_change_id))))
                 next_change_id=data['next_change_id']
                 if next_change_id != previd:
-                    print(next_change_id+" - "+datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
+                    print(str(next_change_id)+" - "+datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
                     tid=nextid(
                         nextid_id = next_change_id
                     )

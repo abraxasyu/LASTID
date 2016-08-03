@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ef579ea-d3e3-4f15-be41-6d2b33028e63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LASTID/settings.py" afterPath="$PROJECT_DIR$/LASTID/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/POCtesting.py" afterPath="$PROJECT_DIR$/POCtesting.py" />
     </list>
     <ignored path="LASTID.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LASTID/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23130842">
+            <state vertical-scroll-proportion="0.0">
               <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
               <folding />
             </state>
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="POCtesting.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="POCtesting.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/POCtesting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.055555">
-              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.5097561">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <element signature="e#150#171#0" expanded="true" />
               </folding>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/LASTIDAPP/admin.py" />
         <option value="$PROJECT_DIR$/LASTIDAPP/views.py" />
         <option value="$PROJECT_DIR$/LASTIDAPP/management/commands/Updater.py" />
-        <option value="$PROJECT_DIR$/POCtesting.py" />
         <option value="$PROJECT_DIR$/LASTID/settings.py" />
+        <option value="$PROJECT_DIR$/POCtesting.py" />
       </list>
     </option>
   </component>
@@ -844,6 +844,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LASTID/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LASTIDAPP/management/commands/Updater.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -856,19 +864,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/POCtesting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.055555">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.5097561">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="e#150#171#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LASTID/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23130842">
-          <caret line="75" column="63" selection-start-line="75" selection-start-column="63" selection-end-line="75" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
